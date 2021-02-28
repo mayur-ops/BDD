@@ -1,0 +1,99 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-28T19:13:57.658Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4344000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.BDD.BaseClassPackage.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "search for individual product",
+        "description": "",
+        "id": "homepage-functionality;search-for-individual-product",
+        "after": [
+          {
+            "result": {
+              "duration": 164000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.BDD.BaseClassPackage.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 79000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on the home page of argos website",
+            "match": {
+              "location": "com.BDD.StepDefinitions.IndividualProductSearchSteps.user_is_on_the_home_page_of_argos_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 439000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User types nike in the search box",
+            "match": {
+              "location": "com.BDD.StepDefinitions.IndividualProductSearchSteps.user_types_nike_in_the_search_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3310000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on search button",
+            "match": {
+              "location": "com.BDD.StepDefinitions.IndividualProductSearchSteps.user_clicks_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should be able to see all the nike product",
+            "match": {
+              "location": "com.BDD.StepDefinitions.IndividualProductSearchSteps.user_should_be_able_to_see_all_the_nike_product()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@search"
+          }
+        ]
+      }
+    ],
+    "name": "HomePage functionality",
+    "description": "",
+    "id": "homepage-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/HomePage.feature",
+    "tags": []
+  }
+]

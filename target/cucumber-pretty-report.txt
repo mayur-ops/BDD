@@ -1,0 +1,7 @@
+
+@search
+Scenario: search for individual product                [90m# src/test/resources/HomePage.feature:4[0m
+  [32mGiven [0m[32mUser is on the home page of argos website[0m      [90m# com.BDD.StepDefinitions.IndividualProductSearchSteps.user_is_on_the_home_page_of_argos_website()[0m
+  [32mWhen [0m[32mUser types nike in the search box[0m               [90m# com.BDD.StepDefinitions.IndividualProductSearchSteps.user_types_nike_in_the_search_box()[0m
+  [32mAnd [0m[32mUser clicks on search button[0m                     [90m# com.BDD.StepDefinitions.IndividualProductSearchSteps.user_clicks_on_search_button()[0m
+  [32mThen [0m[32mUser should be able to see all the nike product[0m [90m# com.BDD.StepDefinitions.IndividualProductSearchSteps.user_should_be_able_to_see_all_the_nike_product()[0m
